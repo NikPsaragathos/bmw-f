@@ -352,12 +352,12 @@
             <function start="1" end="1" mask="11111111b" comment="C_HBA_ENA_V_HI (default: 46 - 70 km/h)">46</function>
          </group>
       </code>
-	  <code description="High-Beam Assistant (HBA): activation via le bouton d'éclairage vers la droite (défaut: non)">
+	  <code description="High-Beam Assistant (HBA): activation via the light button to the right (default: no)">
          <group id="3060">
             <function start="22" end="22" mask="11000000b" comment="FLA_AKTIVIERUNG (default: LDS_in_A)">LDS_in_A_oder_2</function>
          </group>
       </code>
-	  <code description="High-Beam Assistant (HBA): déactivation via le bouton d'éclairage vers la droite (défaut)">
+	  <code description="High-Beam Assistant (HBA): deactivation via the light button to the right (default)">
          <group id="3060">
             <function start="22" end="22" mask="11000000b" comment="FLA_AKTIVIERUNG (default: LDS_in_A)">LDS_in_A</function>
          </group>
@@ -778,12 +778,12 @@
             <function start="4" end="4" mask="11111111b" comment="THRV_AVAI_TLC_LOW (default: 41)">32</function>
          </group>
       </code>	  
-	  <code description="-- Don't work -- High-Beam Assistant (HBA): activation du réglage de la sensibilité (default: no_sensitivity_change)">
+	  <code description="-- Don't work -- High-Beam Assistant (HBA): enable sensitivity adjustment (default: no_sensitivity_change)">
          <group id="3050">
             <function start="1" end="1" mask="00010000b" comment="ALLOW_SENS_CHANGE (default: 00)">01</function>
          </group>
       </code>
-	  <code description="-- Don't work -- High-Beam Assistant (HBA): désactivation du réglage de la sensibilité (default)">
+	  <code description="-- Don't work -- High-Beam Assistant (HBA): disable sensitivity adjustment (default)">
          <group id="3050">
             <function start="1" end="1" mask="00010000b" comment="ALLOW_SENS_CHANGE (default: 00)">00</function>
          </group>
